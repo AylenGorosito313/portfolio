@@ -31,10 +31,8 @@ export default function Proyects() {
       </div>
       <div className="div-proyect">
         <div className="card-pro">
-        <img className="logo-pedia" src={pedia} alt="app" />
-          <div className="div-logo-pedia">
-           
-          </div>
+          <img className="logo-pedia" src={pedia} alt="app" />
+          <div className="div-logo-pedia"></div>
 
           <div className="div-titul-p">
             {" "}
@@ -49,8 +47,8 @@ export default function Proyects() {
               {" "}
               <p className="parrafo-proyecto ">
                 En este proyecto implemento una base de datos relacional SQL,
-                Express y Sequelize en Backend. En utilizo React y Redux .
-                Proyecto realizado como trabajo indiviudal de Henry{" "}
+                Node , Express y Sequelize en Backend. En el front utilizo React
+                y Redux . Proyecto realizado como trabajo indiviudal de Henry{" "}
               </p>
             </div>
           </div>
