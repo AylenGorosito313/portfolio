@@ -1,7 +1,7 @@
 import React from "react";
 import "./Proyects.css";
-import imgRankA from "../../assets/animerank.png";
-import pedia from "../../assets/pedia.png";
+import imgRankA from "../../assets/Screenshot_1.png";
+import pedia from "../../assets/Screenshot_2.png";
 export default function Proyects() {
   return (
     <div className="container-gneral">
