@@ -47,7 +47,7 @@ function Home() {
           </div>
 
           <p className="parrafo">
-            Soy un apasionada de la tecnología y el desarrollo de software. Me
+            Soy una apasionada de la tecnología y el desarrollo de software. Me
             encanta trabajar en proyectos que me permiten aprender y crecer como
             profesional, y siempre estoy buscando nuevos retos y oportunidades
             para mejorar mis habilidades..
