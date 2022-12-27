@@ -1,0 +1,27 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Nav.css";
+function Nav() {
+  return (
+    <div className="div-nav">
+      <div className="header-nav">
+        <h1 className="h1-name-nav">Aylen Gorosito </h1> <p>    / Full-Stack Developer</p>
+      </div>
+      <div>
+        <Link className="Link" to={"/"}>
+          Sobre mi{" "}
+        </Link>
+       
+        <Link className="Link" to={"/proyects"}>
+          Proyectos{" "}
+        </Link>
+        <Link className="Link" to={"/contact"}>
+          {" "}
+          Contacto{" "}
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+export default Nav;

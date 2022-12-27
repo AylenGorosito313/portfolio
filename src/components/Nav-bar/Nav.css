@@ -1,0 +1,45 @@
+.div-nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background: #ffffff;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.Link{
+    color: #676868;
+    font-size: 22px;
+    font-family: Work Sans;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+}
+
+.Link:hover{
+  color: #d17f6d;
+}
+
+.Link:active{
+
+box-shadow:  0px 1px 1px #d17f6d,
+             0px 0px 0px #ffffff;
+}
+
+
+.header-nav{
+  display: flex;
+  font-family: Work Sans;
+  font-weight: 200;
+  font-size: 20px;
+  align-items: center;
+}
+
+.h1-name-nav{
+  font-family: Work Sans;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 10px;
+}
