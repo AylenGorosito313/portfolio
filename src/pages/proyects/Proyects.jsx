@@ -20,9 +20,10 @@ export default function Proyects() {
             </a>
             <div>
               <p className="parrafo-proyecto ">
-                Proyecto en el cual consumo una api de animes para
-                obtener un listado del cual obtener un ranking y realizar busquedas . Tambien hago uso
-                de React para el front y Redux para estados globales{" "}
+                Proyecto en el cual consumo una api de animes para obtener un
+                listado del cual obtener un ranking y realizar busquedas .
+                Tambien hago uso de React para el front y Redux para estados
+                globales{" "}
               </p>
             </div>
           </div>
@@ -30,8 +31,9 @@ export default function Proyects() {
       </div>
       <div className="div-proyect">
         <div className="card-pro">
+        <img className="logo-pedia" src={pedia} alt="app" />
           <div className="div-logo-pedia">
-            <img className="logo-pedia" src={pedia} alt="app" />
+           
           </div>
 
           <div className="div-titul-p">
@@ -46,9 +48,9 @@ export default function Proyects() {
             <div>
               {" "}
               <p className="parrafo-proyecto ">
-                En este proyecto  implemento una base de datos relacional SQL, Express
-                y Sequelize en Backend. En utilizo React y Redux . Proyecto
-                realizado como trabajo indiviudal de Henry{" "}
+                En este proyecto implemento una base de datos relacional SQL,
+                Express y Sequelize en Backend. En utilizo React y Redux .
+                Proyecto realizado como trabajo indiviudal de Henry{" "}
               </p>
             </div>
           </div>
