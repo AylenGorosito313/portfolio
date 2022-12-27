@@ -154,9 +154,12 @@
 
 @media (max-width: 950px) {
     .parrafo {
-        font-size: 10px;
+       
+        font-size: 12px;
         margin: 0;
-        text-align: center;
+        padding: 10px;
+        text-align: left;
+        width: 324px;
     }
     .buttons-div{
         display:none !important;
@@ -177,11 +180,11 @@
     }
     .h1-name-title{
         margin:10px;
-        font-size: 16px;
+        font-size: 20px;
     }
     .h1-name{
         margin:0px;
-        font-size: 16px;
+        font-size: 24px;
     }
 
  
