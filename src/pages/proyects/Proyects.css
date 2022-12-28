@@ -226,6 +226,15 @@
 }
 
 @media (max-width: 700px) {
+  .container-gneral {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background: #f4ece6;
+    width: auto;
+    height: 100%;
+    gap: 50px;
+  }
   .title-proyect {
     margin: 0px;
     height: 40px;
@@ -302,4 +311,10 @@
     box-shadow: 5px 5px 10px #cacaca, -5px -5px 10px #f6f6f6;
 
   }
+  .container {
+    height: 50%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
 }

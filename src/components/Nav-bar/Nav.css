@@ -73,6 +73,7 @@ display: none;
     height: auto;
     width: 100px;
     display: flex;
+    justify-content: center;
   }
   .Link{
  display: none;
