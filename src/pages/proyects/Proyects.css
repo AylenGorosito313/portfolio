@@ -317,7 +317,7 @@
     display: flex;
     align-items: center;
     justify-content: center;}
-    .title-head{
+    /* .title-head{
       display: flex;
       justify-content: center;
       font-family: Poppins;
@@ -325,6 +325,6 @@
       font-weight: 400;
       margin: 0;
       color: #616161;
-    }
+    } */
 
   }
