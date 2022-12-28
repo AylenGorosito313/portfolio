@@ -299,6 +299,13 @@
     justify-content: center;
   }
   .title-head {
-    display: none;
+    display: flex;
+
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0;
+    color: #616161;
   }
 }
