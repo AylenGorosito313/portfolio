@@ -1,11 +1,11 @@
-.container {
+.container{
   height: 50%;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-.title-head {
+.title-head{
   display: flex;
   justify-content: center;
   font-family: Poppins;
@@ -15,6 +15,7 @@
   color: #616161;
 }
 .div-proyect {
+
   display: flex;
 
   padding: 30px 10px 10px 10px;
@@ -85,7 +86,7 @@
 
 .div-titul-p {
   padding: 20px;
-  display: flex;
+ display: flex;
   height: 40px;
   width: auto;
   flex-direction: column;
@@ -107,12 +108,12 @@
 }
 .parrafo-proyecto {
   font-family: Work sans;
-  font-weight: 400;
-  font-size: 14px;
-  margin: 0;
-  width: auto;
-  padding: 30px 0 0 10px;
-  text-align: justify;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    width: auto;
+    padding: 30px 0 0 10px;
+    text-align: justify;
 }
 
 .div-logo-pedia {
@@ -132,19 +133,35 @@
   border-radius: 20px;
 }
 
-.text-container {
+
+
+.text-container{
   display: flex;
   height: 100%;
   width: 40%;
   flex-direction: column;
   justify-content: center;
+
 }
-.div-parrafo {
+.div-parrafo{
   height: 50%;
   align-items: center;
   width: 100%;
-  display: flex;
+    display: flex;
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ///////////////////////////////////////////////// */
 @media (max-width: 1200px) {
@@ -240,13 +257,15 @@
     cursor: pointer;
   }
 
-  .text-container {
+  .text-container{
     display: flex;
     height: 50%;
     width: auto;
     flex-direction: column;
     justify-content: center;
+  
   }
+
 
   .logo {
     height: 120px;
@@ -267,7 +286,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 0px 0px 0px 0px;
+    padding: 0px  0px  0px  0px;
   }
   .logo-pedia {
     height: 184px;
@@ -276,11 +295,11 @@
     display: flex;
     border-radius: 20px;
   }
-
+ 
   .parrafo-proyecto {
     display: none;
   }
-  .card-pro {
+  .card-pro{
     display: flex;
     margin: 0;
     padding-top: 10px;
@@ -290,22 +309,22 @@
     border-radius: 20px;
     background: #fff;
     box-shadow: 5px 5px 10px #cacaca, -5px -5px 10px #f6f6f6;
+
   }
   .container {
     height: 50%;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-  }
-  .title-head {
-    display: flex;
+    justify-content: center;}
+    .title-head{
+      display: flex;
+      justify-content: center;
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 400;
+      margin: 0;
+      color: #616161;
+    }
 
-    justify-content: center;
-    font-family: Poppins;
-    font-size: 10px;
-    font-weight: 400;
-    margin: 0;
-    color: #616161;
   }
-}
