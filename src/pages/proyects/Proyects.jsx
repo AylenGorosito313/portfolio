@@ -14,6 +14,7 @@ export default function Proyects() {
           tecno = "Frondtend , Backend y Bases de datos"
           parrafo = " En este proyecto implemento una base de datos relacional  SQL, Node , Express y Sequelize en Backend. En el front  utilizo React y Redux . Proyecto realizado como trabajo indiviudal de Henr "
           img = { pedia}
+          link ="https://pi-henry-front.vercel.app/"
         
         />
      
@@ -22,7 +23,7 @@ export default function Proyects() {
         tecno = "Frondtend, API REST"
         parrafo = "Proyecto en el cual consumo una api de animes para obtener un listado del cual obtener un ranking y realizar busquedas .Tambien hago uso de React para el front y Redux para estados globales "
         img = {imgRankA}
-        
+        link ="https://animerankig-shya.vercel.app/"
         />
       </div>
     </div>

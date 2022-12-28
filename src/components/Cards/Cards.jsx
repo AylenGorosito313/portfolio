@@ -1,6 +1,6 @@
 import React from "react";
 
-function Cards({titulo,tecno,parrafo,img}) {
+function Cards({titulo,tecno,parrafo,img,link}) {
   return (
     <>
  
@@ -13,7 +13,7 @@ function Cards({titulo,tecno,parrafo,img}) {
    
             <div className="div-titul-p">
               {" "}
-              <a className="Link-proyecto" href="https://pi-henry-front.vercel.app/" >
+              <a className="Link-proyecto" href={link} >
              <p className="title-proyect">{titulo}</p>
               </a>
               <p className="p-proyect">{tecno}</p>
