@@ -1,0 +1,57 @@
+.select-container {
+  height: 180px;
+  width: 140px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+
+}
+.select-layout {
+  position: absolute;
+
+}
+
+.link-menu {
+  color: #676868;
+  font-size: 12px;
+  font-family: Work Sans;
+  text-decoration: none;
+
+  margin: 0px;
+}
+
+.link-menu:hover {
+  color: #d17f6d;
+}
+
+.option-container {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding-left: 10px;
+
+  background: transparent;
+}
+.option-name {
+  padding: 5px;
+  font-size: 12px;
+  font-family: Poppins;
+  color: #616161;
+  border-radius: 5px;
+}
+
+.option-container:hover {
+  color: #616161;
+  font-size: 12px;
+
+  color: #d17f6d;
+
+  background: transparent;
+  box-shadow: 0px 0px 2px #d3d9e5, 0px 0px 22px #d3d9e5;
+}
+
+.div-icon-menu-perfil {
+  padding: 0px 10px 10px 10px;
+}

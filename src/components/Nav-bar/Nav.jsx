@@ -1,13 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Menu from "../menu/Menu.jsx";
+import {useState } from "react";
 import "./Nav.css";
+import Burguer from "../../svg/burguer"
 function Nav() {
+const [Open, setOpen] = useState(false)
+const toggleMenu =()=>{
+setOpen(!Open)
+}
+
+
   return (
     <div className="div-nav">
       <div className="header-nav">
         <h1 className="h1-name-nav">Aylen Gorosito </h1> <p>    / Full-Stack Developer</p>
       </div>
       <div>
+        <div  className="burguer-menu" onClick ={toggleMenu}>
+        < Burguer/>
+        </div>
+       {Open &&  <Menu/>}
         <Link className="Link" to={"/"}>
           Sobre mi{" "}
         </Link>
