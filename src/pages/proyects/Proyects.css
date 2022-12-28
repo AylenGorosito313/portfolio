@@ -1,6 +1,22 @@
-.div-proyect {
+.container{
   height: 50%;
   width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.title-head{
+  display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 400;
+margin: 0;
+    color: #616161;
+
+}
+.div-proyect {
+
   display: flex;
 
   padding: 30px 10px 10px 10px;
@@ -19,6 +35,7 @@
   background: #f4ece6;
   width: 100%;
   height: 100%;
+  gap: 50px;
 }
 .Link-proyecto {
   color: #676868;
@@ -34,10 +51,9 @@
   padding-top: 10px;
   flex-direction: row-reverse;
   position: relative;
-  height: 222px;
-  width: 80vh;
+  height: 340px;
+  width: 50%;
   border-radius: 20px;
-
   background: #fff;
   box-shadow: 5px 5px 10px #cacaca, -5px -5px 10px #f6f6f6;
   justify-content: space-between;
@@ -63,7 +79,7 @@
   font-family: Work sans;
   font-weight: 400;
   font-size: 16px;
-  width: 400px;
+  width: auto;
   margin: 0;
   padding-left: 10px;
   text-align: justify;
@@ -72,9 +88,11 @@
 }
 
 .div-titul-p {
+  padding: 20px;
+ display: flex;
+  height: 40px;
+  width: auto;
   flex-direction: column;
-  height: 80px;
-  width: 30vh;
   box-shadow: -5px 0px 0px #262fe0, -5px -5px 10px #ffffff;
 }
 
@@ -89,14 +107,14 @@
   display: flex;
   height: 100%;
   align-items: center;
-  width: 100%;
+  width: 40%;
 }
 .parrafo-proyecto {
   font-family: Work sans;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   margin: 0;
-  width: 345px;
+  width: auto;
   padding: 30px 0px 0px 10px;
   text-align: justify;
 }
@@ -105,17 +123,50 @@
   justify-content: flex-end;
   display: flex;
   height: 100%;
-  width: 100%;
+  width: 40%;
+  padding: 10px;
+  align-items: center;
 }
 .logo-pedia {
   position: absolute;
-  height: 200px;
-  width: 218px;
+  height: 75%;
+  width: 40%;
   padding: 10px;
   display: flex;
   border-radius: 20px;
 }
 
+
+
+.text-container{
+  display: flex;
+  height: 100%;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.div-parrafo{
+  height: 50%;
+  align-items: center;
+  width: 100%;
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////// */
 @media (max-width: 1200px) {
   .title-proyect {
     margin: 0px;
@@ -131,7 +182,7 @@
     font-family: Work sans;
     font-weight: 400;
     font-size: 12px;
-    width: 400px;
+    width: auto;
     margin: 0;
     padding-left: 10px;
     text-align: justify;
@@ -200,6 +251,16 @@
     cursor: pointer;
   }
 
+  .text-container{
+    display: flex;
+    height: 50%;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+
+
   .logo {
     height: 120px;
     width: 200px;
@@ -222,12 +283,13 @@
     padding: 0px  0px  0px  0px;
   }
   .logo-pedia {
-    height: 120px;
+    height: 184px;
     width: 200px;
     padding-left: 10px;
     display: flex;
     border-radius: 20px;
   }
+ 
   .parrafo-proyecto {
     display: none;
   }
@@ -236,13 +298,11 @@
     margin: 0;
     padding-top: 10px;
     flex-direction: column;
-    
-    height: 200px;
+    height: 400px;
     width: 300px;
     border-radius: 20px;
-  
     background: #fff;
     box-shadow: 5px 5px 10px #cacaca, -5px -5px 10px #f6f6f6;
-    justify-content: space-between;
+
   }
 }

@@ -1,58 +1,29 @@
 import React from "react";
 import "./Proyects.css";
-import imgRankA from "../../assets/Screenshot_1.png";
-import pedia from "../../assets/Screenshot_2.png";
+import Cards from "../../components/Cards/Cards";
+import imgRankA from "../../assets/Screenshot_1.png"
+import pedia from "../../assets/Screenshot_3.png";
 export default function Proyects() {
   return (
-    <div className="container-gneral">
-      <div className="div-proyect">
-        <div className="card-pro">
-          <div className="div-logo">
-            <img className="logo" src={imgRankA} alt="app" />
-          </div>
-
-          <div className="div-titul-p">
-            {" "}
-            <a className="Link-proyecto" href="https://animerankig.vercel.app">
-              {" "}
-              <p className="title-proyect">AnimeRank</p>
-              <p className="p-proyect">Frondtend, API REST</p>
-            </a>
-            <div>
-              <p className="parrafo-proyecto ">
-                Proyecto en el cual consumo una api de animes para obtener un
-                listado del cual obtener un ranking y realizar busquedas .
-                Tambien hago uso de React para el front y Redux para estados
-                globales{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="div-proyect">
-        <div className="card-pro">
-          <img className="logo-pedia" src={pedia} alt="app" />
-          <div className="div-logo-pedia"></div>
-
-          <div className="div-titul-p">
-            {" "}
-            <a
-              className="Link-proyecto"
-              href="https://pi-henry-front.vercel.app/"
-            >
-              <p className="title-proyect">CountryPedia</p>
-            </a>
-            <p className="p-proyect">Frondtend , Backend y Bases de datos</p>
-            <div>
-              {" "}
-              <p className="parrafo-proyecto ">
-                En este proyecto implemento una base de datos relacional SQL,
-                Node , Express y Sequelize en Backend. En el front utilizo React
-                y Redux . Proyecto realizado como trabajo indiviudal de Henry{" "}
-              </p>
-            </div>
-          </div>
-        </div>
+    <div className="container">
+     
+      <div className="container-gneral">
+      <h1 className="title-head">Proyectos</h1>
+        <Cards 
+          titulo = "CountryPedia"
+          tecno = "Frondtend , Backend y Bases de datos"
+          parrafo = " En este proyecto implemento una base de datos relacional  SQL, Node , Express y Sequelize en Backend. En el front  utilizo React y Redux . Proyecto realizado como trabajo indiviudal de Henr "
+          img = { pedia}
+        
+        />
+     
+        <Cards 
+        titulo = "AnimeRank"
+        tecno = "Frondtend, API REST"
+        parrafo = "Proyecto en el cual consumo una api de animes para obtener un listado del cual obtener un ranking y realizar busquedas .Tambien hago uso de React para el front y Redux para estados globales "
+        img = {imgRankA}
+        
+        />
       </div>
     </div>
   );
