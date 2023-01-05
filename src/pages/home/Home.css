@@ -1,14 +1,14 @@
 .div-central-home {
-  width: 90vh;
-  height: 70vh;
+  width: 124vh;
+  height: auto;
   z-index: 2;
   position: relative;
   display: flex;
-  justify-content: space-evenly;
   border-radius: 18px;
   border-radius: 12px;
   background: linear-gradient(225deg, #ffffff);
   box-shadow: -11px 11px 22px #b8b8b8, 0px 0px 0px #ffff;
+  justify-content: space-between;
 }
 .profile-img {
   width: 40.5vh;
@@ -16,9 +16,9 @@
   border-bottom-left-radius: 10px;
   height: 70vh;
   display: flex;
-  background: #f4ece6;
+  background: transparent;
   z-index: 2;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .div-container-home {
   margin: 0;
@@ -26,7 +26,7 @@
   display: flex;
   place-items: center;
   width: auto;
-  height: 90vh;
+  height: auto;
   background: rgb(233, 225, 216);
   background: linear-gradient(
     90deg,
@@ -44,6 +44,7 @@
 }
 
 .h1-name {
+  margin: 0;
   font-family: Work Sans;
   font-weight: 500;
   display: flex;
@@ -88,7 +89,7 @@
 }
 
 .parrafo {
-  width: 333px;
+  width: 60vh;
   font-size: 16px;
   text-align: left;
   font-family: Work sans;
@@ -184,7 +185,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .parrafo {
     font-size: 0;
     display: none !important;
@@ -212,7 +213,7 @@
   }
   .div-container-home {
     height: auto;
-    width: auto;
+    width: 50%;
   }
   .div-central-home {
     height: auto;
@@ -221,4 +222,10 @@
   .p {
     display: none !important;
   }
+  .decoration-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 }

@@ -6,9 +6,9 @@ import pedia from "../../assets/Screenshot_3.png";
 export default function Proyects() {
   return (
     <div className="container">
-    
-      <div className="container-gneral">
      
+      <div className="container-gneral">
+      <h1 className="title-head">Proyectos</h1>
         <Cards 
           titulo = "CountryPedia"
           tecno = "Frondtend , Backend y Bases de datos"
