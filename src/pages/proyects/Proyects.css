@@ -367,12 +367,14 @@
     width: 100%;
   }
   .div-logo-pedia {
-    display: flex;
-    height: 100%;
     justify-content: center;
+    display: flex;
+  
+    height: 90%;
+    width: 80%;
+    padding: 10px;
+  
     align-items: center;
-    width: 100%;
-    padding: 0px 0px 0px 0px;
   }
 
   .logo-pedia {

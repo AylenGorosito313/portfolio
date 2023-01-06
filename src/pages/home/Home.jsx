@@ -57,9 +57,11 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="home-proyects-div" >
-    
-    <Proyects/>
+      <div  className="home-proyects-div" >
+      
+      <Proyects/>
+  
+  
    </div>
     </>
   );
