@@ -24,7 +24,7 @@ function Cards({ titulo, tecno, parrafo, img, link }) {
               </div>
             </div>
           </div>
-          ;
+      
         </div>
       </div>
     </>
