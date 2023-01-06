@@ -38,9 +38,10 @@
   flex-direction: column;
   display: flex;
   justify-content: center;
-  background: #f4ece6;
-  width: 100%;
+  
+  width: 90%;
   height: 100%;
+  align-items: center;
 
 }
 .Link-proyecto {
