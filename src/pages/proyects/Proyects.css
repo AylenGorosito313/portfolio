@@ -125,7 +125,7 @@
   font-weight: 400;
 
   font-size: 18px;
-  background: #eaeff9d1;
+  background: rgba(240, 248, 255, 0.699);
   height: 140px;
   width: auto;
   margin: 0;
@@ -159,9 +159,12 @@
   align-items: flex-start;
 }
 .div-parrafo {
-  height: 50%;
   align-items: center;
-  width: 100%;
+  width: 50vh;
+  border-radius: 10px;
+  padding: 5px;
+  height: 189px;
+  background: rgba(240, 248, 255, 0.699);
   display: flex;
 }
 
@@ -306,12 +309,7 @@
   /* filter: blur(1px); */
 }
 
-.div-parrafo {
-  height: 50%;
-  align-items: center;
-  width: 100%;
-  display: flex;
-}
+
 
 @media (max-width: 700px) {
   .container-gneral {
