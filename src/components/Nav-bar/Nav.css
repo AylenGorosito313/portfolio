@@ -35,7 +35,10 @@
   width: 40px;
 }
 .mi-carita-div {
-  padding: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  align-items: center;
 }
 
 .Link {
