@@ -35,10 +35,10 @@ setOpen(!Open)
         <Link className="Link" to={"/proyects"}>
           Proyectos{" "}
         </Link>
-        <Link className="Link" to={"/contact"}>
+        {/* <Link className="Link" to={"/contact"}>
           {" "}
           Contacto{" "}
-        </Link>
+        </Link> */}
       </div>
     </div>
     </div>
