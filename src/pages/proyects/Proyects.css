@@ -260,7 +260,7 @@
     flex-direction: row-reverse;
     position: relative;
     height: 75vh;
-    width: 70%;
+    width: 90%;
     border-radius: 10px;
     background: #fff;
     box-shadow: 5px 5px 10px #cacaca, -5px -5px 10px #f6f6f6;
@@ -300,6 +300,23 @@
     align-items: center;
   }
 }
+
+.logo-pedia{
+  position: absolute;
+    /* height: 65vh; */
+    width: 50%;
+    height: 80%;
+    object-fit: cover;
+    object-position: bottom;
+    /* width: 90vh; */
+    box-sizing: border-box;
+    border: rgb(77, 77, 77) solid 0.5px;
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    /* filter: blur(1px); */
+
+}
 /* .div-titul-p {
     padding: 20px;
     display: flex;
@@ -314,6 +331,9 @@
 
 
 @media (max-width: 700px) {
+  .div-parrafo{
+    display: none;
+  }
   .container-gneral {
     flex-direction: column;
     display: flex;
@@ -398,6 +418,7 @@
   .container {
     height: 50%;
     width: 90%;
+    background: #f4ece6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -415,6 +436,9 @@
 }
 
 @media (max-width: 500px) {
+  .div-parrafo{
+    display: none;
+  }
   .container-gneral {
     flex-direction: column;
     display: flex;
