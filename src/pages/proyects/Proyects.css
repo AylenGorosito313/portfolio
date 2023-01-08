@@ -60,10 +60,18 @@
   align-items: center;
   justify-content: space-around;
 }
+
+  .p-proyect{
+    padding-left: 11px;
+    display: flex;
+  } 
+
+
 .title-proyect {
   margin: 0px;
   height: 40px;
   width: 200px;
+  color: #464242;
   padding-left: 10px;
   font-weight: 700;
   font-size: 30px;
@@ -75,16 +83,6 @@
   border: none;
 }
 
-/* .p-proyect {
-  font-family: Work sans;
-  font-weight: 400;
-  font-size: 13px;
-  width: auto;
-  margin: 0;
-  padding-left: 10px;
-  text-align: justify;
-  cursor: pointer;
-} */
 .style-text {
   background: transparent;
   display: flex;
@@ -130,7 +128,7 @@
 
 .logo-pedia {
   position: absolute;
-  width: 60%;
+  width: 50%;
   height: 80%;
   object-fit: cover;
   object-position: bottom;
@@ -266,10 +264,7 @@
     background-color: #225abe;
     border: none;
   }
-/* 
-  .p-proyect{
-    display: none;
-  } */
+
 
   .style-text {
     background: #0d032a14;
