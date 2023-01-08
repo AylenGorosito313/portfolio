@@ -40,7 +40,7 @@ function Home() {
             <div></div>
           </div>
           <div className="container-hola-parrafo">
-            <h1 className="h1-name-hola">Hola !  👋</h1>
+            <h1 className="h1-name-hola">Hola ! 👋</h1>
             <h2 className="text-h2">Esto soy y esto es lo que hago</h2>
             <div className="buttons-div">
               <div className="div-btn-1">
@@ -49,18 +49,17 @@ function Home() {
             </div>
 
             <p className="parrafo">
-              Soy una apasionada de la tecnología y el desarrollo de software.
+              Soy una apasionada de la tecnología y el desarrollo web.
               Me encanta trabajar en proyectos que me permiten aprender y crecer
-              como profesional, y siempre estoy buscando nuevos retos y
-              oportunidades para mejorar mis habilidades..h
+              como profesional, siempre estoy buscando nuevos retos y
+              oportunidades para mejorar mis habilidades. 
             </p>
           </div>
         </div>
       </div>
-      <div className="home-proyects-div" >
-    
-    <Proyects/>
-   </div>
+      <div className="home-proyects-div">
+        <Proyects />
+      </div>
     </>
   );
 }
