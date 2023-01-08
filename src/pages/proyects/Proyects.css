@@ -276,10 +276,10 @@
     background-color: #225abe;
     border: none;
   }
-
+/* 
   .p-proyect{
     display: none;
-  }
+  } */
 
   .style-text {
     background: #0d032a14;
@@ -326,10 +326,10 @@
     font-size: 18px;
   }
 
-  .p-proyect{
+  /* .p-proyect{
     display: none;
-  }
-  /* .p-proyect {
+  } */
+  .p-proyect {
     font-family: Work sans;
     font-weight: 400;
     font-size: 12px;
@@ -339,7 +339,7 @@
     text-align: justify;
 
     cursor: pointer;
-  } */
+  }
 
   .text-container {
     display: flex;
