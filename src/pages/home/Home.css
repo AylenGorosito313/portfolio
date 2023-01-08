@@ -245,8 +245,8 @@
     height: auto;
     display: flex;
     width: 30%;
-background: transparent;
-    justify-content: flex-start;
+    margin: 0;
+    justify-content: flex-end;
   }
   .div-central-home {
     height: auto;
