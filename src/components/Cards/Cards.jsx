@@ -15,8 +15,9 @@ function Cards({ titulo, tecno, parrafo, img, link }) {
               <a className="Link-proyecto" href={link}>
                 <p className="title-proyect">{titulo}</p>
               </a>
+              <p className="p-proyect">{tecno}</p>
             </div>
-            <p className="p-proyect">{tecno}</p>
+           
             <div className="style-text">
               <div className="div-parrafo">
                 <p className="parrafo-proyecto ">{parrafo}</p>
