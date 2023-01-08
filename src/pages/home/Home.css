@@ -250,8 +250,9 @@ background: transparent;
   }
   .div-central-home {
     height: auto;
-    
-   max-width: 0px;
+    display: flex;
+    box-shadow: none;
+    max-width: 100%;
   }
   .p {
     display: none !important;
@@ -265,6 +266,9 @@ background: transparent;
     width: 100%;
     justify-content: center;
 }
+
+
+
 .img {
   display: flex;
 
