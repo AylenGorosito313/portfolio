@@ -120,9 +120,15 @@
   .mi-carita-nav {
     display: none;
   }
+  .p-name-nav{
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
+  .p-name-nav{
+    display: none;
+  }
   .profile-img {
     height: 80vh;
     width: auto;

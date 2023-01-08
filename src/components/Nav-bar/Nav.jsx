@@ -16,7 +16,7 @@ setOpen(!Open)
     <div className="div-nav-container">
     <div className="div-nav">
       <div className="mi-carita-div">
-        <p >Aylen Gorosito</p>
+        <p className="p-name-nav">Aylen Gorosito</p>
       <img  className="mi-carita-nav" src={img} alt="micarita"/>
       </div>
    
