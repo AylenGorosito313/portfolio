@@ -38,11 +38,10 @@
   flex-direction: column;
   display: flex;
   justify-content: center;
-  
+
   width: 90%;
   height: 100%;
   align-items: center;
-
 }
 .Link-proyecto {
   color: #676868;
@@ -204,8 +203,6 @@
   /* filter: blur(1px); */
 }
 
-
-
 /* ///////////////////////////////////////////////// */
 @media (max-width: 1200px) {
   .container {
@@ -310,8 +307,6 @@
     flex-direction: column;
     box-shadow: -5px 0px 0px #262fe0, -5px -5px 10px #ffffff00;
   } */
-
-
 
 @media (max-width: 700px) {
   .container-gneral {
@@ -513,7 +508,9 @@
         margin: 0;
         color: #616161;
       } */
-
+  .div-parrafo {
+    display: none;
+  }
   .div-titul-p {
     padding: 20px;
     display: flex;
