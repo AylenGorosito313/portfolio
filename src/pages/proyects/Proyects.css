@@ -517,7 +517,7 @@
   .div-titul-p {
     padding: 20px;
     display: flex;
-    background: #e9e9e96b;
+    background: transparent;
     height: 40px;
     backdrop-filter: saturate(80%) blur(1px);
     width: 40%;
