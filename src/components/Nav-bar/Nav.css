@@ -27,7 +27,7 @@
   top: 0;
   left: 0;
   position: sticky;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .mi-carita-nav {
