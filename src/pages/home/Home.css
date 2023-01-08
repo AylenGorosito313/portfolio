@@ -1,9 +1,14 @@
 
 .home-proyects-div{
   width: 100%;
-     background: #ffff;
+  display: flex;
+  background: #ffff;
+  flex-direction: column;
+  align-items: center;
 }
-
+.home-proyects-div{
+  color: #464242;
+}
 .div-central-home {
   width: 124vh;
   height: auto;

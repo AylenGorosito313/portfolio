@@ -16,7 +16,8 @@
 .div-nav {
   display: flex;
   height: 80px;
-  width: 50%;
+  gap: 20px;
+  width: 70%;
   align-items: center;
   background: #ffffff00;
   position: inherit;
@@ -27,7 +28,6 @@
   top: 0;
   left: 0;
   position: sticky;
-  justify-content: space-between;
 }
 
 .mi-carita-nav {
@@ -46,8 +46,8 @@
   font-size: 16px;
   font-family: Work Sans;
   text-decoration: none;
-  padding: 10px 10px 10px 10px;
-  margin: 10px;
+  padding: 10px;
+  margin: auto;
 }
 
 .Link:hover {

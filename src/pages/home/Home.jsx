@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-
+import Footer from "../../components/Footer/Footer";
 import Behance from "../../svg/behance";
 import Git from "../../svg/git";
 import Linkedin from "../../svg/linkedin";
@@ -58,8 +58,10 @@ function Home() {
         </div>
       </div>
       <div className="home-proyects-div">
+        <h1 className="head-title-proyects">Proyectos recientes</h1>
         <Proyects />
       </div>
+    <Footer/>
     </>
   );
 }
