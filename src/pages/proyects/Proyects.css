@@ -189,17 +189,7 @@
 
   align-items: center;
 }
-.logo-pedia {
-  position: absolute;
-  height: 65vh;
-  width: 90vh;
-  box-sizing: border-box;
-  border: rgb(77, 77, 77) solid 0.5px;
-  padding: 10px;
-  display: flex;
-  border-radius: 20px;
-  /* filter: blur(1px); */
-}
+
 
 /* ///////////////////////////////////////////////// */
 @media (max-width: 1200px) {
