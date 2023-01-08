@@ -244,15 +244,16 @@
   .div-container-home {
     height: auto;
     display: flex;
-    width: 30%;
+    width: 100%;
     margin: 0;
-    justify-content: flex-end;
   }
   .div-central-home {
     height: auto;
     display: flex;
     box-shadow: none;
-    max-width: 100%;
+   
+    justify-content: space-around;
+    align-items: center;
   }
   .p {
     display: none !important;
