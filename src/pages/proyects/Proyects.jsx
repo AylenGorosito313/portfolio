@@ -5,9 +5,8 @@ import imgRankA from "../../assets/Screenshot_1.png"
 import pedia from "../../assets/Screenshot_3.png";
 export default function Proyects() {
   return (
-    <div className="container">
-    
-      <div className="container-gneral">
+<>
+
      
         <Cards 
           titulo = "CountryPedia"
@@ -25,7 +24,10 @@ export default function Proyects() {
         img = {imgRankA}
         link ="https://animerankig-shya.vercel.app/"
         />
-      </div>
-    </div>
+ 
+</>
+    
+     
+   
   );
 }

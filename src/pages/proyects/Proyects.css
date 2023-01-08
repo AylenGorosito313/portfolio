@@ -24,15 +24,11 @@
 }
 .div-proyect {
   display: flex;
-
-  padding: 30px 10px 10px 10px;
-  justify-content: center;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 110%;
-  height: 100%;
-  align-items: center;
-  padding-left: 20px;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
 }
 .container-gneral {
   flex-direction: column;
@@ -57,13 +53,12 @@
   padding-top: 10px;
   flex-direction: row-reverse;
   position: relative;
-  height: 75vh;
-  width: 70%;
+  height: 70vh;
+  width: 1200px;
   border-radius: 10px;
   background: transparent;
-
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-around;
 }
 .title-proyect {
   margin: 0px;
@@ -135,8 +130,11 @@
 
 .logo-pedia {
   position: absolute;
-  height: 65vh;
-  width: 90vh;
+  width: 60%;
+  height: 80%;
+  object-fit: cover;
+  object-position: bottom;
+  box-sizing: border-box;
   border: rgb(77, 77, 77) solid 0.5px;
   padding: 10px;
   display: flex;
@@ -223,15 +221,15 @@
   }
   .div-proyect {
     display: flex;
-
-    padding: 30px 10px 10px 10px;
+    margin: auto;
+    
     justify-content: center;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 100%;
+    max-width: 850px;
     height: 100%;
     align-items: center;
-    padding-left: 20px;
+    padding: 20px;
   }
   .container-gneral {
     flex-direction: column;
@@ -279,16 +277,10 @@
     border: none;
   }
 
-  /* .p-proyect {
-    font-family: Work sans;
-    font-weight: 400;
-    font-size: 13px;
-    width: auto;
-    margin: 0;
-    padding-left: 10px;
-    text-align: justify;
-    cursor: pointer;
-  } */
+  .p-proyect{
+    display: none;
+  }
+
   .style-text {
     background: #0d032a14;
     display: flex;
@@ -334,6 +326,9 @@
     font-size: 18px;
   }
 
+  .p-proyect{
+    display: none;
+  }
   /* .p-proyect {
     font-family: Work sans;
     font-weight: 400;
