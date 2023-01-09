@@ -58,7 +58,7 @@ function Home() {
         </div>
       </div>
       <div className="home-proyects-div">
-        <h1 className="head-title-proyects">Proyectos recientes</h1>
+       
         <Proyects />
       </div>
     <Footer/>

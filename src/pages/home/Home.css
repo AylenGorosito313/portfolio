@@ -1,13 +1,13 @@
 .home-proyects-div {
   width: 100%;
-  display: flex;
+  
   background: #ffff;
-  flex-direction: column;
+
   align-items: center;
 }
-/* .home-proyects-div{
+.home-proyects-div {
   color: #464242;
-} */
+}
 .div-central-home {
   width: 124vh;
   height: auto;
@@ -164,9 +164,10 @@
     width: 100%;
 
     background: #ffff;
-    flex-direction: column;
+
     align-items: center;
   }
+
   .div-central-home {
     max-width: 700px;
     max-height: 500px;
