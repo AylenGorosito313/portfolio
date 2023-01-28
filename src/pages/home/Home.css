@@ -8,6 +8,21 @@
 .home-proyects-div {
   color: #464242;
 }
+
+.size-img{
+  width: 600px;
+}
+
+.div-size-img{
+
+  padding-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .div-central-home {
   width: 124vh;
   height: auto;
@@ -229,7 +244,13 @@
   }
 }
 
+
+
+
 @media (max-width: 600px) {
+  .size-img{
+    width: 400px;
+  }
   .parrafo {
     font-size: 0;
     display: none !important;
@@ -287,5 +308,21 @@
 
     height: 110px;
     width: 120px;
+  }
+}
+
+
+
+
+
+@media (max-width: 360px) {
+  .size-img{
+    width: 300px;
+    padding-bottom: 40px;
+
+    
+  }
+  .div-size-img{
+    font-size: 12px;
   }
 }

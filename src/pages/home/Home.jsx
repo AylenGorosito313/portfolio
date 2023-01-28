@@ -6,6 +6,7 @@ import Git from "../../svg/git";
 import Linkedin from "../../svg/linkedin";
 import Proyects from "../proyects/Proyects";
 import img from "../../assets/img.png";
+import tecnologias from "../../assets/Group 5.png"
 function Home() {
   return (
     <>
@@ -58,6 +59,10 @@ function Home() {
         </div>
       </div>
       <div className="home-proyects-div">
+        <div className="div-size-img">
+          <h1> Tecnologias</h1>
+          <img className="size-img" src={tecnologias} alt="alt"/>
+        </div>
        
         <Proyects />
       </div>
