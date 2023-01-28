@@ -2,7 +2,7 @@ import React from "react";
 import "./Proyects.css";
 import Cards from "../../components/Cards/Cards";
 import imgRankA from "../../assets/Screenshot_1.png";
-import imgRankA from "../../assets/Screenshot_5.png";
+import Andromeda from "../../assets/Screenshot_5.png";
 import pedia from "../../assets/Screenshot_3.png";
 export default function Proyects() {
   return (
@@ -11,7 +11,7 @@ export default function Proyects() {
         titulo="Andromeda Games"
         tecno="React ,Redux , Toolkit, Node , Express , PostgreSQL"
         parrafo="Andromeda Games  es un proyecto enfocado a la venta de juegos indies. Esta plataforma promociona e incentiva a creadores independientes a publicar y vender sus juegos . "
-        img={imgRankA}
+        img={Andromeda}
         link="https://andromedagames.netlify.app/"
       />
 
