@@ -66,7 +66,7 @@
 .title-proyect {
   margin: 0px;
   height: 40px;
-  width: 200px;
+  width: auto;
   color: #464242;
   padding-left: 10px;
   font-weight: 700;
@@ -246,7 +246,7 @@
   .title-proyect {
     margin: 0px;
     height: 40px;
-    width: 200px;
+    width: auto;
     padding-left: 10px;
     font-family: Work sans;
     font-weight: 400;
@@ -298,7 +298,7 @@
   .title-proyect {
     margin: 0px;
     height: 40px;
-    width: 200px;
+    width: auto;
     padding-left: 10px;
     font-family: Work sans;
     font-weight: 400;
@@ -405,7 +405,7 @@
   .title-proyect {
     margin: 0px;
     height: 40px;
-    width: 200px;
+    width: auto;
     padding-left: 10px;
     font-family: Work sans;
     font-weight: 400;
