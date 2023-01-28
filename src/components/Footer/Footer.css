@@ -1,6 +1,6 @@
 .footer-page-container{
     width: 100%;
-    max-height: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     background: #FFFF;
