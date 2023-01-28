@@ -7,7 +7,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #e8e1d9;
+  background: linear-gradient(
+    107deg,
+    rgb(169, 175, 140),
+    rgba(255, 255, 255, 1) 47%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 
