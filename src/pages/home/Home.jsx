@@ -21,18 +21,18 @@ function Home() {
               <div className="div-redes-sociales">
                 <div>
                   {" "}
-                  <a href="https://www.behance.net/aylengorosito">
+                  <a target="_blank" href="https://www.behance.net/aylengorosito">
                     <Behance className="be" />
                   </a>
                 </div>
                 <div>
                   {" "}
-                  <a href="https://www.linkedin.com/in/aylen-gorosito-a252a5243/">
+                  <a target="_blank" href="https://www.linkedin.com/in/aylen-gorosito-a252a5243/">
                     <Linkedin className="be" />
                   </a>
                 </div>
                 <div>
-                  <a href="https://github.com/AylenGorosito313">
+                  <a  target="_blank" href="https://github.com/AylenGorosito313">
                     <Git className="be" />
                   </a>
                 </div>
