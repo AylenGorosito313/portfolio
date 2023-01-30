@@ -8,9 +8,18 @@ export default function Footer() {
     <div className="footer-page-container">
     <h1  className='footer-h1'>© 2023 Aylen Gorosito</h1>
 <div className='footer-contacts'> 
-    <Behance/>
-    <Git/>
-    <Linkedin/>
+<a  target="_blank"  href="https://www.behance.net/aylengorosito">
+ <Behance />
+</a>
+<a  target="_blank" href="https://www.linkedin.com/in/aylengorosito/">
+   <Linkedin/>
+</a>
+<a  target="_blank"  href="https://github.com/AylenGorosito313">
+   <Git/>
+</a>
+   
+   
+   
 </div>
   </div>
   )

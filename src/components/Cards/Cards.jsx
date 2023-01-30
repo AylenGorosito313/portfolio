@@ -12,7 +12,7 @@ function Cards({ titulo, tecno, parrafo, img, link }) {
           <div className="text-container">
             <div className="div-titul-p">
               {" "}
-              <a className="Link-proyecto" href={link}>
+              <a className="Link-proyecto"  target="_blank"  href={link}>
                 <p className="title-proyect">{titulo}</p>
               
               </a>
