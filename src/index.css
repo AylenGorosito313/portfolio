@@ -7,7 +7,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background:rgb(188 228 233) 20%;
+  background: rgb(207,219,201);
+  background: linear-gradient(90deg, rgba(207,219,201,1) 53%, rgba(255,255,255,1) 53%);
 }
 
 
