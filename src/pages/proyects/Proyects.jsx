@@ -7,6 +7,7 @@ import pedia from "../../assets/Screenshot_3.png";
 export default function Proyects() {
   return (
     <>
+
       <Cards
         titulo="Andromeda Games"
         tecno="React ,Redux , Toolkit, Node , Express , PostgreSQL"
@@ -30,6 +31,8 @@ export default function Proyects() {
         img={imgRankA}
         link="https://animerankig-shya.vercel.app/"
       />
+
+      
     </>
   );
 }

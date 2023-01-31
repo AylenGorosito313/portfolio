@@ -1,7 +1,9 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import Viewproyects from "./pages/View/Viewproyects";
 import Home from "./pages/home/Home";
+import Footer from "./components/Footer/Footer";
 // import Contact from "./pages/Contacto/Contact";
 import Nav from "./components/Nav-bar/Nav";
 import { Route } from "react-router-dom";
@@ -20,7 +22,8 @@ function App() {
       </Route>
    
       <Route path="/proyects" >
-        <Proyects />
+        <Viewproyects />
+        <Footer/>
       </Route>
       {/* <Route path="/contact" >
         <Contact/>
