@@ -7,6 +7,7 @@ import Linkedin from "../../svg/linkedin";
 import Proyects from "../proyects/Proyects";
 import img from "../../assets/img.png";
 import tecnologias from "../../assets/Group 5.png"
+import CV from "../../components/Cards/CV";
 function Home() {
   return (
     <>
@@ -55,6 +56,7 @@ function Home() {
               como profesional, siempre estoy buscando nuevos retos y
               oportunidades para mejorar mis habilidades. 
             </p>
+            <CV/>
           </div>
         </div>
       </div>
