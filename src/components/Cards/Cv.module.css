@@ -29,3 +29,16 @@
     padding: 10px;
     width: auto;
 }
+
+@media (max-width: 1200px) {
+    .img {
+      display: none;
+    }
+
+    .container{
+        max-height: 50px;
+    }
+    .text{
+     font-size: 12px;
+    }
+}
