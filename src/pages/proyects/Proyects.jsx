@@ -4,10 +4,18 @@ import Cards from "../../components/Cards/Cards";
 import imgRankA from "../../assets/Screenshot_1.png";
 import Andromeda from "../../assets/Screenshot_5.png";
 import pedia from "../../assets/Screenshot_3.png";
+import StarWars from "../../assets/Screenshot_6.png"
+
 export default function Proyects() {
   return (
     <>
-
+    <Cards
+        titulo="Star Wars Challenge"
+        tecno="React / CSS Modules / JavaScript"
+        parrafo="Desafío técnico de front-end. Fue realizado utilizando las tecnologías de React, JavaScript y CSS.   "
+        img={StarWars}
+        link="https://star-wars-challenge-one.vercel.app/"
+      />
       <Cards
         titulo="Andromeda Games"
         tecno="React ,Redux , Toolkit, Node , Express , PostgreSQL"
@@ -31,7 +39,7 @@ export default function Proyects() {
         img={imgRankA}
         link="https://animerankig-shya.vercel.app/"
       />
-
+  
       
     </>
   );
