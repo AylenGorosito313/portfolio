@@ -15,11 +15,11 @@ export default function Menu() {
             <p className="option-name">Proyectos</p>
           </div>
         </Link>
-        <Link className="link-menu" to={"/contact"}>
+        {/* <Link className="link-menu" to={"/contact"}>
           <div className="option-container">
             <p className="option-name">Contacto</p>
           </div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

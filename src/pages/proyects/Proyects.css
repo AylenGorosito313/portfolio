@@ -495,7 +495,7 @@
     padding: 20px;
     display: flex;
     background: transparent;
-    height: 40px;
+    height: 60px;
     backdrop-filter: saturate(80%) blur(1px);
     width: 40%;
     flex-direction: column;
