@@ -1,7 +1,7 @@
 import React from 'react'
 import style from "./Cv.module.css"
 import cv_img from "./cvvv.png"
-import cv_pdf from "./CV_Aylen_Gorosito.pdf"
+import cv_pdf from "./GorositoAylen_CV.pdf"
 export default function CV() {
   return (
     <>  <a href={cv_pdf} className={style.a} download="Curriculun_AylenGorosito.pdf">
