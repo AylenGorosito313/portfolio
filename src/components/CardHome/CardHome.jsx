@@ -11,18 +11,19 @@ const ProyectosRecientes = [
     link: "https://micole.vercel.app/",
   },
   {
-    titulo: "Adrian Hidráulica",
-    img: "https://res.cloudinary.com/dj8p0rdxn/image/upload/v1681475614/hjsrmhziep376bvqez7m.png",
-    description: "Sistema de gestion de inventario , trabajos y empleados",
-    link: "",
-  },
-  {
     titulo: "Star Wars",
     img: "https://res.cloudinary.com/dj8p0rdxn/image/upload/v1681475668/v5a7yebjoyrrty454mr2.png",
     description:
       " Star Wars - random battle , es una prueba tecnica  que realicé para desarrollador front-end ",
     link: "https://star-wars-challenge-one.vercel.app/",
   },
+  {
+    titulo: "Adrian Hidráulica",
+    img: "https://res.cloudinary.com/dj8p0rdxn/image/upload/v1681475614/hjsrmhziep376bvqez7m.png",
+    description: "Sistema de gestion de inventario , trabajos y empleados",
+    link: "",
+  },
+
 ];
 
 export default function CardHome() {
