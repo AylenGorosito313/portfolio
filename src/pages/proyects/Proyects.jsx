@@ -4,12 +4,20 @@ import Cards from "../../components/Cards/Cards";
 import imgRankA from "../../assets/Screenshot_1.png";
 import Andromeda from "../../assets/Screenshot_5.png";
 import pedia from "../../assets/Screenshot_3.png";
-import StarWars from "../../assets/Screenshot_6.png"
+import StarWars from "../../assets/Screenshot_6.png";
 
 export default function Proyects() {
   return (
     <>
-    <Cards
+      <Cards
+        titulo="MiCole"
+        tecno="React/ Redux Toolkit / Tailwind / Material UI  /JavaScript"
+        parrafo='En mi rol actual de co-fundadora y desarrolladora front-end. Se trata de un marketplace que actúa como intermediario entre las familias y los colegios. Además, proporcionamos a los colegios un sistema de gestión de citas , sistema de gestión de eventos y una lista de espera '
+        img='https://res.cloudinary.com/dj8p0rdxn/image/upload/v1681481924/z7vnkcx2ukkuc6ohjgq9.jpg'
+        link="https://micole.vercel.app/"
+      />
+
+      <Cards
         titulo="Star Wars Challenge"
         tecno="React / CSS Modules / JavaScript"
         parrafo="Desafío técnico de front-end. Fue realizado utilizando las tecnologías de React, JavaScript y CSS.   "
@@ -39,8 +47,6 @@ export default function Proyects() {
         img={imgRankA}
         link="https://animerankig-shya.vercel.app/"
       />
-  
-      
     </>
   );
 }

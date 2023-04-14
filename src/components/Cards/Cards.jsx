@@ -16,11 +16,13 @@ function Cards({ titulo, tecno, parrafo, img, link }) {
                 <p className="title-proyect">{titulo}</p>
               
               </a>
-              <p className="p-proyect">{tecno}</p>
+      
             </div>
            
             <div className="style-text">
-              <div className="div-parrafo">
+
+              <div className="div-parrafo">         
+                 <p className="p-proyect">{tecno}</p>
                 <p className="parrafo-proyecto ">{parrafo}</p>
               </div>
             </div>
