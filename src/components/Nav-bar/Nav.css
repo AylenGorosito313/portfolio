@@ -13,6 +13,12 @@
   box-shadow: -1px 1px 20px #b8b8b8, 0px 0px 0px #ffff;
   justify-content: space-around;
 }
+.p-name-nav{
+  font-weight: 600;
+  /* font-family: Poppins; */
+  /* font-size: 1.5vh; */
+}
+
 .div-nav {
   display: flex;
   height: 80px;
@@ -51,7 +57,7 @@
 }
 
 .Link:hover {
-  color: #d17f6d;
+  color: #4e5ef0;
 }
 
 .Link:active {
@@ -68,10 +74,11 @@
 }
 
 .h1-name-nav {
-  font-family: Work Sans;
-  font-weight: 500;
+  font-family: Poppins;
+  font-weight: 600;
+  
   font-size: 30px;
-  padding: 10px;
+  padding: 1vh;
 }
 
 .burguer-menu {

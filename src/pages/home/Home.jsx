@@ -5,9 +5,11 @@ import Behance from "../../svg/behance";
 import Git from "../../svg/git";
 import Linkedin from "../../svg/linkedin";
 import Proyects from "../proyects/Proyects";
-import img from "../../assets/img.png";
+import img from "../../assets/profile-pic.png";
 import tecnologias from "../../assets/Group 5.png"
 import CV from "../../components/Cards/CV";
+import CardHome from "../../components/CardHome/CardHome";
+
 function Home() {
   return (
     <>
@@ -15,7 +17,10 @@ function Home() {
         <div className="div-central-home">
           <div className="profile-img">
             <div className="decoration-img">
-              <img className="img" src={img} alt="profile" />
+              <div style={{border:'0.80vh solid #4e5ef0', boxShadow: '-11px 11px 22px #b8b8b8, 0px 0px 0px #ffff', borderRadius:'50%'}}>
+                   <img className="img" style={{ borderRadius:'50%'}} src={img} alt="profile" />
+              </div>
+           
               <h1 className="h1-name">Aylen Gorosito</h1>
               <hr className="hr"></hr>
               <h1 className="h1-name-title"> Full-Stack Developer</h1>
@@ -62,11 +67,15 @@ function Home() {
       </div>
       <div className="home-proyects-div">
         <div className="div-size-img">
-          <h1> Tecnologias</h1>
+          <h1 style={{fontSize:'3vh', color:'#0D263B'}}> Tecnologias</h1>
           <img className="size-img" src={tecnologias} alt="alt"/>
         </div>
        
-        <Proyects />
+        {/* <Proyects /> */}
+
+      </div>
+      <div style={{paddingBottom:'2vh'}}>
+        <CardHome/>
       </div>
     <Footer/>
     </>

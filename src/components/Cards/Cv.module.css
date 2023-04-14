@@ -26,8 +26,12 @@
 
 
 .text{
-    padding: 10px;
-    width: auto;
+    padding: 1vh;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #0D263B;
+    width: 20vh;
+    font-size: 1.2vh;
 }
 
 @media (max-width: 1200px) {
