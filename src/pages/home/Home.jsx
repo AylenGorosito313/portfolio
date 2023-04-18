@@ -17,7 +17,7 @@ function Home() {
         <div className="div-central-home">
           <div className="profile-img">
             <div className="decoration-img">
-              <div style={{border:'0.80vh solid #4e5ef0', boxShadow: '-11px 11px 22px #b8b8b8, 0px 0px 0px #ffff', borderRadius:'50%'}}>
+              <div style={{ boxShadow: '-11px 11px 22px #b8b8b8, 0px 0px 0px #ffff', borderRadius:'50%'}}>
                    <img className="img" style={{ borderRadius:'50%'}} src={img} alt="profile" />
               </div>
            
